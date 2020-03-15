@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Задача «Мурмаркет»</title>
+</head>
+<body>
+<header>
+    <h1>Мурррмаркет</h1>
+</header>
+<main>
+    <input type="checkbox" id="reverse">
+    <label class="button" for="reverse"></label>
+    <section class="cat-cards">
+        <div class="card">
+            <a href="#modal" class="card-ref">
+                <img class="card-image" src="images/simple.png" alt="Рыжий kitten">
+            </a>
+            <h3>Манчкин длинношёрстная</h3>
+            <p class="card-info">Манчкины — очень необычные кошки.
+                При средней длине тела их лапки короче, чем у обычных кошек в 2-3 раза,
+                из-за этой особенности их иногда называют таксами.
+            </p>
+        </div>
+        <div class="card">
+            <a href="#modal" class="card-ref">
+                <img class="card-image" src="images/simple.png" alt="Рыжий kitten">
+            </a>
+            <h3>Манчкин длинношёрстная</h3>
+            <p class="card-info">Манчкины — очень необычные кошки.
+                При средней длине тела их лапки короче, чем у обычных кошек в 2-3 раза,
+                из-за этой особенности их иногда называют таксами.
+            </p>
+        </div>
+        <div class="card">
+            <a href="#modal" class="card-ref">
+                <img class="card-image" src="images/simple.png" alt="Рыжий kitten">
+            </a>
+            <h3>Манчкин длинношёрстная</h3>
+            <p class="card-info">Манчкины — очень необычные кошки.
+                При средней длине тела их лапки короче, чем у обычных кошек в 2-3 раза,
+                из-за этой особенности их иногда называют таксами.
+            </p>
+        </div>
+        <div class="card">
+            <a href="#modal" class="card-ref">
+                <img class="card-image" src="images/simple.png" alt="Рыжий kitten">
+            </a>
+            <h3>Манчкин длинношёрстная</h3>
+            <p class="card-info">Манчкины — очень необычные кошки.
+                При средней длине тела их лапки короче, чем у обычных кошек в 2-3 раза,
+                из-за этой особенности их иногда называют таксами.
+            </p>
+        </div>
+    </section>
+</main>
+<div class="modal" id="modal">
+    <div class="popup">
+        <input class="first-pic" type="radio" id="simple"
+               name="slider" checked>
+        <input class="second-pic" type="radio" id="reverse-pic"
+               name="slider">
+        <input class="third-pic" type="radio" id="black-and-white"
+               name="slider">
+        <a href="#" class="close"><img src="images/close.svg" alt="Крестик"></a>
+        <div class="images">
+            <img class="pic1" src="images/simple.png" alt="Картинка с котиком">
+            <img class="pic2" src="images/reversed.jpeg" alt="Перевернутая картинка с котиком">
+            <img class="pic3" src="images/black-and-white.jpeg" alt="Черно-белая картинка с котиком">
+        </div>
+        <h3 class="title">Манчкин длинношёрстная</h3>
+        <p class="info">Манчкины — очень необычные кошки.
+            При средней длине тела их лапки короче, чем у обычных кошек в 2-3 раза,
+            из-за этой особенности их иногда называют таксами.
+            <br>
+            <br>
+            Манчкины — очень необычные кошки.
+            При средней длине тела их лапки короче, чем у обычных кошек в 2-3 раза,
+            из-за этой особенности их иногда называют таксами.
+        </p>
+        <div class="labels">
+            <label class="simple-pic" for="simple"></label>
+            <label class="reverse-pic" for="reverse-pic"></label>
+            <label class="b-w-pic" for="black-and-white"></label>
+        </div>
+    </div>
+</div>
+<footer>
+    <ul class="menu">
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
+    <p class="company">ООО «‎Добрые котята»‎<br>2019</p>
+</footer>
+</body>
+</html>
